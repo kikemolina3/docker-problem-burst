@@ -4,15 +4,15 @@ from multiprocessing import Pool
 import requests
 
 HOSTS = ["http://192.168.5.36:11000", "http://192.168.5.37:11000"]
-burst_size = 256
-granularity = 128
+burst_size = 192
+granularity = 96
 
 init = json.loads(open('init.json').read())
 run = json.loads(open('run.json').read())
 
 init["code"] = open('terasort-burst.zip', 'rb').read().encode('base64')
 run_params = generate_payload(endpoint="http://192.168.5.24:9000", 
-                                partitions=256, 
+                                partitions=192, 
                                 bucket="terasort", 
                                 key="terasort-6g", 
                                 sort_column=0)
