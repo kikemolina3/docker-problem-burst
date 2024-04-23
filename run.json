@@ -14,7 +14,6 @@
     },
     "deadline": "1903170880",
     "debug": false,
-    "invoker_id": "..",
     "middleware": {
       "backend_info": {
         "backend_type": "RedisList",
@@ -23,6 +22,5 @@
       "chunk_size": 1024
     },
     "namespace": "guest",
-    "transaction_id": "0",
-    "value": "..."
+    "transaction_id": "0"
 }

@@ -3,7 +3,6 @@
       "name": "terasort-burst",
       "binary": true,
       "main": "main",
-      "code": "...",
       "env": {
         "__OW_DEADLINE": "1713870328410",
         "__OW_ACTION_NAME": "/guest/terasort-burst",
