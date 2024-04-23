@@ -1,0 +1,3 @@
+/usr/bin/docker run -d --cpu-shares $((1024*96)) --memory 100000m --memory-swap 100000m \
+-p 11000:8080 --cpus 96 --cap-drop NET_RAW --cap-drop NET_ADMIN --ulimit nofile=65536:65536 \
+--pids-limit 1024 --log-driver json-file manriurv/ow-rust-burst:non-debug
