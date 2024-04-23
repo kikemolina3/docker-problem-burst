@@ -1,8 +1,4 @@
 requests
 numpy
 boto3
-math
-random
 pandas
-pprint
-logging
