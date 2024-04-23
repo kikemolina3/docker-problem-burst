@@ -1,0 +1,16 @@
+{
+    "value": {
+      "name": "terasort-burst",
+      "binary": true,
+      "main": "main",
+      "code": "...",
+      "env": {
+        "__OW_DEADLINE": "1713870328410",
+        "__OW_ACTION_NAME": "/guest/terasort-burst",
+        "__OW_ACTION_VERSION": "0.0.1",
+        "__OW_ACTIVATION_ID": "65df2bacf7c043cf9f2bacf7c0a3cf41",
+        "__OW_NAMESPACE": "guest",
+        "__OW_TRANSACTION_ID": "IUDnGhVnEh6baorOdIU0KqRuslxxteQ8"
+      }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "action_name": "/guest/terasort-burst",
+    "action_version": "0.0.1",
+    "activation_id": "65df2bacf7c043cf9f2bacf7c0a3cf41",
+    "burst_info": {
+      "0": [
+        0,
+        95
+      ],
+      "1": [
+        96,
+        191
+      ]
+    },
+    "deadline": "1903170880",
+    "debug": false,
+    "invoker_id": "..",
+    "middleware": {
+      "backend_info": {
+        "backend_type": "RedisList",
+        "uri": "redis://192.168.5.37:6379"
+      },
+      "chunk_size": 1024
+    },
+    "namespace": "guest",
+    "transaction_id": "0",
+    "value": "..."
+}
