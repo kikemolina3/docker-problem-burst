@@ -58,7 +58,7 @@ stats = pd.DataFrame({"fn_id": i["part_number"],
                           "pre_upload": i["pre_upload"],
                           "end_fn": i["end_fn"],
                           # "finished": finished
-                          } for i in results)
+                          } for i in results if "part_number" in i)
 
 stats.to_csv("terasort-burst.csv", index=False)
 
